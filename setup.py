@@ -15,10 +15,13 @@ setup(
     license='MIT',
     description='Starter package to develop new Mininet modules',
     long_description=open('README.rst').read(),
+	data_files=[
+		("share/doc/mininet-starter", ["doc/USAGE.txt"])
+	],
     install_requires=[
         "mininet",
         "pip",
-        "distribute",
+        "setuptools",
     ],
     entry_points={'console_scripts': [
         'starter_console_script_1 = your_source_code:main',

@@ -1,0 +1,5 @@
+Execute "starter_bin" to print "mininet-starter hello world" on the console.
+
+Execute "starter_console_script_1" to run a simple mininet experiment.
+
+Execute "starter_console_script_2" to execute a function to "Do something complicated".
