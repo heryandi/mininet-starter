@@ -1,5 +1,6 @@
 import os
 
+import mnp.patch
 from setuptools import setup, find_packages
 
 scripts = [os.path.join('bin', filename) for filename in os.listdir('bin')] 
@@ -20,6 +21,7 @@ setup(
 	],
     install_requires=[
         "mininet",
+        "mnp",
         "pip",
         "setuptools",
     ],
